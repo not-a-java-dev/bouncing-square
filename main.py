@@ -27,7 +27,7 @@ def main():
         rectangle.x += mx
         rectangle.y += my
         pygame.display.flip()
-        #screen.fill((0,0,0))
+        screen.fill((0,0,0))
         pygame.draw.rect(screen,color, rectangle)
         if (rectangle.left < 0 or rectangle.right > (bounds[0])): # Collision from the sides!
             mx = -mx
