@@ -14,7 +14,7 @@ def main():
     my = 2 # Y movement
     pygame.init()
     screen = pygame.display.set_mode((640,480))
-    pygame.display.set_caption("Hello, Pygame!")
+    pygame.display.set_caption("Bouncing Square")
     clock = pygame.time.Clock()
     bounds = (screen.get_width(), screen.get_height())
     run = True
